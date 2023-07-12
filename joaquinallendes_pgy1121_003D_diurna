@@ -1,0 +1,85 @@
+#forma B
+#sorry no pude hacerlo
+import numpy as np
+tipoa = 3800
+tipob = 3000
+tipoc = 2800
+tipod = 3500
+
+w = 1
+while w:
+    print("__________")
+    print("CASA FELIZ")
+    print("__________")
+    print("")
+    print("menu:")
+    print("1. comprar departamento")
+    print("2. mostrar departamentos disponibles")
+    print("3. ver listado de compradores")
+    print("4. mostar ganancias totales")
+    print("5. salir")
+    print("")
+
+    eleccion = int(input("¿que desea elegir?: "))
+
+    if eleccion == 1:
+          print("tipos de departamentos:")
+          print("tipo 1.A: 3800")
+          print("tipo 2.B: 3000")
+          print("tipo 3.C: 2800")
+          print("tipo 4.D: 3500")
+          tipo = int(input("que tipo de departamento desea elegir: "))
+          if tipo == 1:
+            piso = int(input("que piso desea elegir(seleccione del 1 al 10): "))
+            if piso> 0 or piso < 11:
+              run = int(input("ingresa tu RUN: "))
+            else:
+              print("piso de departamento no existente")
+              if run<100000000:
+                print("compra realizada con exito")
+              else:
+                print("fallo en el RUN")
+          elif tipo == 2:
+            piso = int(input("que piso desea elegir(seleccione del 1 al 10): "))
+            if piso> 0 or piso < 11:
+              run = int(input("ingresa tu RUN: "))
+            else:
+              print("piso de departamento no existente")
+              if run<100000000:
+                print("compra realizada con exito")
+              else:
+                print("fallo en el RUN")
+          elif tipo == 3:
+            piso = int(input("que piso desea elegir(seleccione del 1 al 10): "))
+            if piso> 0 or piso < 11:
+              run = int(input("ingresa tu RUN: "))
+            else:
+              print("piso de departamento no existente")
+              if run<100000000:
+                print("compra realizada con exito")
+              else:
+                print("fallo en el RUN")
+          elif tipo == 4:
+            piso = int(input("que piso desea elegir(seleccione del 1 al 10): "))
+            if piso> 0 or piso < 11:
+              run = int(input("ingresa tu RUN: "))
+            else:
+              print("piso de departamento no existente")
+              if run<100000000:
+                print("compra realizada con exito")
+              else:
+                print("fallo en el RUN")
+    elif eleccion == 2:
+      print(" ")
+    elif eleccion == 3:
+      print("")
+
+    elif eleccion == 4:
+      print("tipo a:")
+      print("tipo b:")
+    elif eleccion == 5:
+      print("saliendo del sistema...")
+      print("joaquin allendes")
+      print("12/07/2023")
+      print("adios")
+      w = 0
